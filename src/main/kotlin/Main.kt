@@ -14,7 +14,7 @@ fun main() {
         println("i = $i")
     }
     
-    val myname = "juan"
+    val myname = "adian juan r "
     print("Hello my name is ")
     println(myname)
     print(if (true) "Always true" else "Always false")
