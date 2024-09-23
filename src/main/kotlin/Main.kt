@@ -17,10 +17,22 @@ fun main() {
     val myname = "adian juan r "
     print("Hello my name is ")
     println(myname)
-    print(if (true) "Always true " else "Always false")
+//    println(if (true) "Always true " else "Always false")
     // test commit
     
-    // 
+    // with type data
     var company: String = "organization" // var can be reassigned
     val companies: String = "organizations" //val cannot be reassigned (final)
+    
+    // without type data
+    var companywithout = "organization"
+
+    // Operator
+    val firstWord = "First "
+    val lastWord = "Last"
+    print(firstWord + lastWord)
+
+    val valueA: Int = 10
+    val valueB = 20
+    print(valueA + valueB)
 }
