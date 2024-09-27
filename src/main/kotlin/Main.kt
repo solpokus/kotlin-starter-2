@@ -43,8 +43,33 @@ fun main() {
 //    val characters: Char = 'ABC'   // Incorrect character literal (only 1 character)
     
     // char can be increment & decrement , bcs char is represented from unicode
-    println("Vocal 1 " + character++)
-    println("Vocal 2 " + character++)
-    println("Vocal 3 " + character)
+//    println("Vocal 1 " + character++)
+//    println("Vocal 2 " + character++)
+//    println("Vocal 3 " + character)
+    
+    // Indexing with string
+    val text = "Organic"
+    val firstChar = text[3]
+    
+//    println("The 4ft $text is $firstChar")
+    
+    // loop
+    for (char in text){
+//        print("$char ")
+    }
+
+    val line = "Line 1\n" +
+            "Line 2\n" +
+            "Line 3\n" +
+            "Line 4\n"
+    
+    val lines = """
+        Line 1
+        Line 2
+        Line 3 =
+    Line 4
+    """.trimIndent()
+    print(lines)
+    
     
 }
