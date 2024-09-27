@@ -30,9 +30,21 @@ fun main() {
     // Operator
     val firstWord = "First "
     val lastWord = "Last"
-    print(firstWord + lastWord)
+//    print(firstWord + lastWord)
 
     val valueA: Int = 10
     val valueB = 20
-    print(valueA + valueB)
+//    print(valueA + valueB)
+    
+    
+    // char
+    var character = 'A'
+
+//    val characters: Char = 'ABC'   // Incorrect character literal (only 1 character)
+    
+    // char can be increment & decrement , bcs char is represented from unicode
+    println("Vocal 1 " + character++)
+    println("Vocal 2 " + character++)
+    println("Vocal 3 " + character)
+    
 }
