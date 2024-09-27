@@ -14,6 +14,9 @@ fun main() {
         println("i = $i")
     }*/
     
+    // ------------
+    // Start Kotlin Fundamental
+    
     val myname = "adian juan r "
     print("Hello my name is ")
     println(myname)
@@ -69,7 +72,23 @@ fun main() {
         Line 3 =
     Line 4
     """.trimIndent()
-    print(lines)
+//    print(lines)
+
+
+    // String template
+    val names = "Kotlin"
+//    print("My name is " + names)
+    // same as
+//    print("My name is $name")
     
+    val old = 3
+//    print("My name is $name, im $old years old")
+
+    val hour = 7
+    print("Office ${if (hour > 7) "already close" else "is open"}")
+    
+    
+    // ------------
+    // End Kotlin Fundamental
     
 }
